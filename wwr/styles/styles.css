@@ -1,0 +1,120 @@
+body {
+    background-color: #fcfbfb; /* background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for entire page */
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* Centering content */
+}
+
+/* Header */
+header {
+    background-color: rgba(20, 30, 13, 0.7); /* background */
+    text-align: center;
+}
+
+/* Navv */
+nav a {
+    text-align: center;
+    color: #fcfbfb; /* Font color */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    background-color: black; /* Background color on hover */
+    color: #d9c2a3; /* Font color on hover */
+}
+
+/* Hero Messag */
+#hero-msg h1, #hero-msg h4 {
+    text-align: center; /* Centering text */
+}
+
+/* Button Box */
+.button-box {
+    text-align: center; /* Centering buttons */
+}
+
+/* Main Section */
+main section {
+    text-align: center; /* Centering main section */
+}
+
+/* Background Container */
+#background {
+    height: 725px; /* Setting height */
+    background-color: #d9c2a3; /* background colorr */
+}
+
+/* Message Section */
+.msg {
+    background-color: rgba(20, 30, 13, 0.7); /* background color for top footer */
+    color: #333; /* Font color */
+    padding: 20px;
+}
+
+.msg h2 {
+    color: #fffbfb; /* Font color */
+}
+
+.msg p {
+    color: #ffffff; /* Font color */
+}
+
+/* Footer */
+footer {
+    background-color: rgba(20, 30, 13, 0.7); /* background color for footer */
+    color: #d9c2a3; /* Font color */
+    text-align: center;
+}
+
+footer a {
+    color: #d9c2a3; /* Font color for site plan contact us */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer p {
+    font-size: 1.2em; /* Larger font size */
+}
+
+/* Cards and Buttons */
+.book, .join {
+    background-color: #007bff; /* trying blue color for button */
+    color: #fff; /* Font color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.book:hover, .join:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    color: #d9c2a3; /* Font color on hover */
+}
+
+/* Width Settings */
+.icon {
+    width: 80px; /* Width for icons */
+}
+
+#hero-img {
+    width: 100%; /*  width for hero image */
+}
+
+
+h1, h2, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
